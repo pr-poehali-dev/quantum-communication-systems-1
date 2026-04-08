@@ -277,7 +277,8 @@ export default function Index() {
                 <li className="text-base font-semibold flex items-start gap-2"><span className="text-red-600 mt-1">·</span> High-ticket B2B (500 тыс. – 1 млн ₽)</li>
               </ul>
               <p className="text-neutral-600 max-w-xl mb-8 leading-relaxed">
-                Беру ответственность за выручку. Умею делать результат руками и через команду.<br />
+                Беру ответственность за выручку.<br />
+                Умею делать результат руками и через команду.<br />
                 Построил отдел продаж, который принёс <strong>1,4 млрд ₽</strong> оборота компании.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
