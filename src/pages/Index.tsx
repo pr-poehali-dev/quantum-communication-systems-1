@@ -446,7 +446,7 @@ export default function Index() {
         <div className="container mx-auto">
           <p className="text-red-600 text-xs uppercase tracking-widest mb-3">Кейс 02 · Scale UP</p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-4 max-w-3xl">
-            Scale UP — бизнес курсы.<br />Чек курса 1 млн ₽
+            Scale UP — бизнес курс.<br />Основатель: Михаил Дашкиев.<br />Чек курса 1 млн ₽
           </h2>
           <p className="text-neutral-500 mb-12 max-w-2xl">
             Проект с нуля, гипотеза. Закрыт из-за экономики — но результаты говорят сами за себя.
