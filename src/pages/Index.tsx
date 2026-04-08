@@ -308,8 +308,8 @@ export default function Index() {
                         <p className="text-xs text-white/60 mt-1">продажи</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-2xl font-bold text-red-400">1,4B</p>
-                        <p className="text-xs text-white/60 mt-1">инвестиций</p>
+                        <p className="text-xl font-bold text-red-400">10+ ЛЕТ</p>
+                        <p className="text-xs text-white/60 mt-1">sales опыт</p>
                       </div>
                     </div>
                   </div>
