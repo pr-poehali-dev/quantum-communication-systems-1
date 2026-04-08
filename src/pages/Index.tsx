@@ -277,8 +277,8 @@ export default function Index() {
                 <li className="text-base font-semibold flex items-start gap-2"><span className="text-red-600 mt-1">·</span> High-ticket B2B (500 тыс. – 1 млн ₽)</li>
               </ul>
               <p className="text-neutral-600 max-w-xl mb-8 leading-relaxed">
-                Беру ответственность за выручку.<br />
-                Умею делать результат руками и через команду. Построил отдел продаж, который принёс <strong>1,4 млрд ₽</strong> оборота компании.
+                Беру ответственность за выручку. Умею делать результат руками и через команду.<br />
+                Построил отдел продаж, который принёс <strong>1,4 млрд ₽</strong> оборота компании.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="#cases" className="bg-black text-white text-sm uppercase tracking-widest px-8 py-4 hover:bg-red-600 transition-colors text-center">
@@ -300,11 +300,11 @@ export default function Index() {
                   <div className="absolute bottom-0 left-0 right-0 bg-black p-6">
                     <div className="grid grid-cols-3 gap-4 text-white">
                       <div className="text-center">
-                        <p className="text-2xl font-bold text-red-400">21М</p>
-                        <p className="text-xs text-white/60 mt-1">выручка</p>
+                        <p className="text-xl font-bold text-red-400">21 МЛН</p>
+                        <p className="text-xs text-white/60 mt-1">выручка отдела</p>
                       </div>
                       <div className="text-center border-x border-white/20">
-                        <p className="text-2xl font-bold text-red-400">95М</p>
+                        <p className="text-xl font-bold text-red-400">135 МЛН</p>
                         <p className="text-xs text-white/60 mt-1">продажи</p>
                       </div>
                       <div className="text-center">
@@ -314,7 +314,7 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-red-600 hidden md:block"></div>
+
               </div>
             </div>
           </div>
