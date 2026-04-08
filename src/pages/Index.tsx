@@ -599,7 +599,7 @@ export default function Index() {
 
           <div className="bg-red-600 p-8 md:p-12">
             <p className="text-white text-2xl md:text-3xl font-bold leading-snug max-w-2xl">
-              «Я не строю "идеальные процессы". Я строю системы, которые приносят деньги здесь и сейчас.»
+              «Стань результатом успеха других людей и тогда сам станешь успешным»
             </p>
             <p className="text-white/70 mt-4 text-sm uppercase tracking-widest">— Михаил Дергаусов</p>
           </div>
@@ -665,22 +665,12 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="border border-neutral-800 p-8">
-              <h3 className="text-xs uppercase tracking-widest text-neutral-400 mb-6">Кратко</h3>
-              <div className="space-y-4">
-                {[
-                  ["Роль", "Head of Sales / Руководитель отдела продаж"],
-                  ["Специализация", "High-ticket B2B, построение с нуля"],
-                  ["Опыт", "5,5+ лет в продажах, 2+ года управления отделом"],
-                  ["Формат", "Полная занятость, удалённо"],
-                  ["Готов выйти", "В течение 1–2 недель"],
-                ].map(([label, value]) => (
-                  <div key={label} className="flex gap-4 border-b border-neutral-800 pb-4 last:border-0 last:pb-0">
-                    <span className="text-xs uppercase tracking-widest text-neutral-500 w-28 shrink-0 pt-0.5">{label}</span>
-                    <span className="text-sm">{value}</span>
-                  </div>
-                ))}
-              </div>
+            <div className="aspect-[3/4] relative overflow-hidden">
+              <img
+                src="https://cdn.poehali.dev/files/746cde91-6822-4d9d-b3a8-768b2458f0ac.jpg"
+                alt="Михаил Дергаусов"
+                className="absolute inset-0 w-full h-full object-cover object-top"
+              />
             </div>
           </div>
         </div>
