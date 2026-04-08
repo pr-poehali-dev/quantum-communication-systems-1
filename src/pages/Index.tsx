@@ -377,11 +377,12 @@ export default function Index() {
         <div className="container mx-auto">
           <p className="text-red-600 text-xs uppercase tracking-widest mb-3">Кейс 01 · Zapusk.tech</p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-4 max-w-3xl">
-            Построил отдел продаж и продукта с нуля за 1 год 11 месяцев
+            Разработал продукт и построил отдел продаж с выручкой 1.5 млн ₽ в месяц с нуля
           </h2>
           <p className="text-neutral-400 mb-12 max-w-2xl">
-            Инвестплатформа, B2B. Клиенты — собственники бизнеса с выручкой от 50 млн ₽/год.
-            Команда: 5 менеджеров + 2 маркетолога + 1 юрист + 1 продакт-менеджер.
+            Инвестплатформа, B2B.<br />
+            Клиенты — собственники бизнеса с выручкой от 50 млн ₽/год.<br />
+            Команда: 2 менеджера + 1 маркетолог + 1 юрист + 1 ассистент.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
