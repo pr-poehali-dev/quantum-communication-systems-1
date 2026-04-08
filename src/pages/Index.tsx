@@ -289,14 +289,11 @@ export default function Index() {
             <div className="col-span-12 md:col-span-5">
               <div className="relative">
                 <div className="aspect-[3/4] bg-neutral-100 relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-32 h-32 bg-neutral-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <Icon name="User" size={64} className="text-neutral-500" />
-                      </div>
-                      <p className="text-sm text-neutral-400 uppercase tracking-widest">Фото Михаила</p>
-                    </div>
-                  </div>
+                  <img
+                    src="https://cdn.poehali.dev/files/746cde91-6822-4d9d-b3a8-768b2458f0ac.jpg"
+                    alt="Михаил Дергаусов"
+                    className="absolute inset-0 w-full h-full object-cover object-top"
+                  />
                   <div className="absolute bottom-0 left-0 right-0 bg-black p-6">
                     <div className="grid grid-cols-3 gap-4 text-white">
                       <div className="text-center">
