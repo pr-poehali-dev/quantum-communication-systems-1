@@ -41,7 +41,9 @@ export default function Index() {
       title: "РНП-отчёт",
       desc: "Еженедельный отчёт каждого менеджера в Google Sheets — Результат, Намерение, Проблема.",
       content: (
-        <div className="overflow-x-auto">
+        <div className="space-y-4">
+          <img src="https://cdn.poehali.dev/files/5634ab75-8f91-480d-aca9-a8b9bab6e967.png" alt="Планируемые оплаты" className="w-full border border-neutral-200 rounded" />
+          <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead>
               <tr className="bg-black text-white">
@@ -72,6 +74,7 @@ export default function Index() {
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
       )
     },
@@ -80,7 +83,9 @@ export default function Index() {
       title: "Воронка продаж",
       desc: "6 этапов с конверсией отдела (12% лид → оплата) в Amo CRM.",
       content: (
-        <div className="space-y-2">
+        <div className="space-y-4">
+          <img src="https://cdn.poehali.dev/files/79e8b4bf-5dfb-406a-8d97-bc7095cfc4a3.png" alt="Канбан воронка сделок" className="w-full border border-neutral-200 rounded" />
+          <div className="space-y-2">
           {[
             { stage: "Лиды", pct: 100, color: "bg-black" },
             { stage: "Квалификация", pct: 70, color: "bg-neutral-700" },
@@ -98,6 +103,7 @@ export default function Index() {
               </div>
             </div>
           ))}
+          </div>
         </div>
       )
     },
@@ -106,7 +112,9 @@ export default function Index() {
       title: "Дашборд KPI",
       desc: "Ежедневный контроль менеджеров: звонки, встречи, счета, оплаты, % выполнения плана.",
       content: (
-        <div className="overflow-x-auto">
+        <div className="space-y-4">
+          <img src="https://cdn.poehali.dev/files/4abd47be-3630-4bf9-b598-5f33c5fe7e6a.png" alt="Дашборд KPI" className="w-full border border-neutral-200 rounded" />
+          <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead>
               <tr className="bg-black text-white">
@@ -158,6 +166,7 @@ export default function Index() {
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
       )
     },
@@ -166,7 +175,9 @@ export default function Index() {
       title: "Due Diligence чек-лист",
       desc: "14 пунктов отбора клиентов перед тем, как брать в работу.",
       content: (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="space-y-4">
+          <img src="https://cdn.poehali.dev/files/b97222c4-5228-406b-b822-03f4e2b5d72f.png" alt="Таблица прогресса проектов" className="w-full border border-neutral-200 rounded" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {[
             "Выручка компании ≥ 50 млн ₽/год",
             "Срочность привлечения инвестиций — до 3 мес.",
@@ -188,6 +199,7 @@ export default function Index() {
               <span className="text-sm">{item}</span>
             </div>
           ))}
+          </div>
         </div>
       )
     },
@@ -197,6 +209,7 @@ export default function Index() {
       desc: "Структура Zoom-встречи по методологии СПИН-продаж.",
       content: (
         <div className="space-y-4">
+          <img src="https://cdn.poehali.dev/files/eb81ac52-4220-4f58-a471-d5adf5cb5861.png" alt="Дашборд ассистент" className="w-full border border-neutral-200 rounded" />
           {[
             {
               type: "С — Ситуационные",
