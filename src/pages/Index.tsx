@@ -272,10 +272,13 @@ export default function Index() {
                 МИХАИЛ<br />
                 <span className="text-red-600">ДЕРГАУСОВ</span>
               </h1>
-              <p className="text-lg font-semibold mb-2">Построение продаж с нуля · High-ticket B2B (500 тыс. – 1 млн ₽)</p>
+              <ul className="mb-6 space-y-1">
+                <li className="text-base font-semibold flex items-start gap-2"><span className="text-red-600 mt-1">·</span> Построение продаж с нуля</li>
+                <li className="text-base font-semibold flex items-start gap-2"><span className="text-red-600 mt-1">·</span> High-ticket B2B (500 тыс. – 1 млн ₽)</li>
+              </ul>
               <p className="text-neutral-600 max-w-xl mb-8 leading-relaxed">
-                Беру ответственность за выручку. Умею делать результат руками и через команду.
-                Построил отдел продаж, который привёл проекты на <strong>1,4 млрд ₽ инвестиций</strong>.
+                Беру ответственность за выручку.<br />
+                Умею делать результат руками и через команду. Построил отдел продаж, который принёс <strong>1,4 млрд ₽</strong> оборота компании.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="#cases" className="bg-black text-white text-sm uppercase tracking-widest px-8 py-4 hover:bg-red-600 transition-colors text-center">
